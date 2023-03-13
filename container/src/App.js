@@ -1,7 +1,7 @@
 import React from 'react';
 import MktApp from './components/MktApp';
 
-export default () => {
+export const App = () => {
   return (
     <div>
       <MktApp />
