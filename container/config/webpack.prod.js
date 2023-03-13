@@ -16,7 +16,7 @@ const prodConfig = {
       name: 'container',
       remotes: {
         // Url path in S3
-        marketing: `marketing@${domain}/marketing/remoteEntry.js`,
+        marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     })
