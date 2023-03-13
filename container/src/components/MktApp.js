@@ -1,7 +1,7 @@
 import { mount } from 'marketing/MktApp';
 import React, { useRef, useEffect } from 'react';
 
-export default () => {
+export const MktApp = () => {
   const ref = useRef(null);
 
   useEffect(() => {
